@@ -29,9 +29,7 @@
 - ' data1.csv ' 等csv文件为引用的数据文档。
 
 - ' all.xls ' 为总的数据源。
- ![文件内容]( https://github.com/ElaineToto/Python_Data/readme_images/py.png )
-<img src="https://github.com/ElaineToto/Python_Data/blog/master/readme_images/py.png">
-![图1](./readme_images/py.png)
+![文件内容](./readme_images/py.png)
 ## 📗Web_App动作描述
 ##### 🔑一
 用户点击导航栏四个选项，跳转到想了解的页面
@@ -39,27 +37,26 @@
 [岗位数量](http://elaine.pythonanywhere.com/effectscatter_symbol)
 [工作经验](http://elaine.pythonanywhere.com/pie_base)
 [最低学历](http://elaine.pythonanywhere.com/bar)
-<img src="https://github.com/ElaineToto/Python_Data/blog/master/readme_images/nav.png">
 
+![导航](./readme_images/nav.png)
 
 ##### 🔐二
 用户通过选择器点击想要了解的城市，可显示该城市的相关岗位数量
-<img src="https://github.com/ElaineToto/Python_Data/readme_images/blog/master/option.png">
+![选项](./readme_images/option.png)
 
 
 ##### 🔐三
 鼠标下拉可看文字结论分析
-<img src="https://github.com/ElaineToto/Python_Data/blog/master/readme_images/text.png">
+![结论](./readme_images/text.png)
 
 ## 📝数据交互\自定义函数模块描述
 
 代码
 [详细app.py👈](https://github.com/ElaineToto/Python_Data/blob/master/app.py)）
-
-<img src="https://github.com/ElaineToto/Python_Data/blog/master/readme_images/code.png">
+![代码](./readme_images/py.png)
 
 ### 🐂HTML页面交互及Jinja2
-<img src="https://github.com/ElaineToto/Python_Data/blog/master/readme_images/jj.png">
+![交互](./readme_images/jj.png)g">
 
 ### [🔗我PythonAnywhere](http://Elaine.pythonanywhere.com/)
 
