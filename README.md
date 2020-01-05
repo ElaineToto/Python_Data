@@ -22,13 +22,13 @@
 
 - 主运行文件为 `app.py ` 文件。
 
-- ' static ' 为网页样式。
+- `static ` 为网页样式。
  
-- ' templates ' 里的`map.html`系列文件为生成可视化图表的离线文件，作为引用文件。
+-  `templates ` 里的`map.html`系列文件为生成可视化图表的离线文件，作为引用文件。
  
-- ' data1.csv ' 等csv文件为引用的数据文档。
+-  `data1.csv ` 等csv文件为引用的数据文档。
 
-- ' all.xls ' 为总的数据源。
+-  `all.xls ` 为总的数据源。
 ![文件内容](./readme_images/py.png)
 ## 📗Web_App动作描述
 ##### 🔑一
