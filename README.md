@@ -31,7 +31,7 @@
 - ' all.xls ' 为总的数据源。
  ![文件内容]( https://github.com/ElaineToto/Python_Data/readme_images/py.png )
 <img src="https://github.com/ElaineToto/Python_Data/blog/master/readme_images/py.png">
-
+![图1](./readme_images/py.png)
 ## 📗Web_App动作描述
 ##### 🔑一
 用户点击导航栏四个选项，跳转到想了解的页面
