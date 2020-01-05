@@ -13,14 +13,14 @@
 ## 👍HTML档描述
 ##### 分为四个页面展示python岗位分析内容
 
-1. [各省python相关岗位平均月薪](http://elaine.pythonanywhere.com/)
-2. [各省python相关岗位数量](http://elaine.pythonanywhere.com/effectscatter_symbol)
-3. [工作经验与最低要求学历的职位分布数量](http://elaine.pythonanywhere.com/pie_base)
-4. [最低学历-工作经验与平均月薪](http://elaine.pythonanywhere.com/bar)
+1. [各省python相关岗位平均月薪](http://elaine.pythonanywhere.com/)以地图方式呈现，得出结论Python这个关键词下，全国16946条样本的月薪平均值为14197元/月。
+2. [各省python相关岗位数量](http://elaine.pythonanywhere.com/effectscatter_symbol)以热力图方式呈现，得出结论结论：北上广浙这四个省份占据了超过60%以上的职位数。
+3. [工作经验与最低要求学历的职位分布数量](http://elaine.pythonanywhere.com/pie_base)以柱状图和折线图方式呈现，得出结论上半部分的柱状图可以看出工作经验要求【不限】的数量最多，达6183个岗位，因此可以初步推断Python相关岗位，只要你技术过硬能够胜任工作，并没有工作经验方面的硬性要求。
+4. [最低学历-工作经验与平均月薪](http://elaine.pythonanywhere.com/bar)以折线图方式呈现，得出结论如图所示，我们可以看出无论是从同一学历不同经验还是相同经验不同学历条形图都是呈增长趋势的，因此可以判断出Python相关岗位的月薪是与学历经验直接相关的。以后想从事这个行业的同学，需要多多实操，好好学习，平均月薪的多少与你技术能力的不可替代性息息相关。
+<strong>人生苦短，我用PYTHON</strong>
 
 ### 👌Python档描述
-* 在flask环境下导入pandas、pyecharts实现数据图表交互展示。
-* 写出四个@route，分别呈现为<strong>各省python相关岗位平均月薪、各省python相关岗位数量、工作经验与最低要求学历的职位分布数量、最低学历-工作经验与平  均月薪</strong>的相关图表展示
+
 - 主运行文件为 `app.py ` 文件。
 
 - `static ` 为网页样式。
@@ -31,6 +31,14 @@
 
 -  `all.xls ` 为总的数据源。
 ![文件内容](./readme_images/py.png)
+
+* 在flask环境下导入pandas、pyecharts实现数据图表交互展示。
+* 写出四个@route，分别呈现为<strong>各省python相关岗位平均月薪、各省python相关岗位数量、工作经验与最低要求学历的职位分布数量、最低学历-工作经验与平  均月薪</strong>的相关图表展示。
+* df = pd.read_csv('xxx.csv',encoding = 'utf8', index_col="xxx")英文采用单字节编码，部分中文采用双字节编码。
+* 利用.renter/with open导入和打开文件。
+* 调用pyecharts模块作图传输到HTML页面。
+* 使用list字典循环。
+
 ## 📗Web_App动作描述
 ##### 🔑一
 用户点击导航栏四个选项，跳转到想了解的页面
