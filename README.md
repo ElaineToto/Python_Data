@@ -22,7 +22,7 @@
 * (在templates文件下的base.html中以.top写出导航栏，以<a>标签链接其它页面实现选项跳转，并以css和style定义导航栏的样式)
 * 在.html页面以<link href="../static/hf.css" rel="stylesheet"/>链接到static中的hf.css样式.
 * 在body里以<aside style>写入一个文本方框及内容。
-* 以<select><option>实现地区选择
+* 以select option <select><option>实现地区选择
 ### 👌Python档描述
 
 - 主运行文件为 `app.py ` 文件。
