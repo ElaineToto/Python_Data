@@ -71,6 +71,8 @@
 ### 🐂HTML页面交互及Jinja2
 ![交互](./readme_images/jj.png)
 
+##### 最后，希望此项目能让对你python和HTML相关认识，同时项目内容能让你对python岗位相关分析有更深入的了解。
+
 #### [🔗我PythonAnywhere](http://Elaine.pythonanywhere.com/)
 
 #### [🔗搭档PythonAnywhere](http://xjiajian.pythonanywhere.com/)
