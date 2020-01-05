@@ -29,7 +29,7 @@
 - ' data1.csv ' 等csv文件为引用的数据文档。
 
 - ' all.xls ' 为总的数据源。
- ![文件内容]( https://github.com/ElaineToto/Python_Data/blog/master/readme_images/py.png )
+ ![文件内容]( https://github.com/ElaineToto/Python_Data/readme_images/py.png )
 <img src="https://github.com/ElaineToto/Python_Data/blog/master/readme_images/py.png">
 
 ## 📗Web_App动作描述
