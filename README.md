@@ -30,7 +30,7 @@
 
 - ' all.xls ' 为总的数据源。
 
-<img src="https://github.com/ElaineToto/Python_Data/readme_images/py.png">
+<img src="https://github.com/ElaineToto/Python_Data/blog/master/readme_images/py.png">
 
 ## 📗Web_App动作描述
 ##### 🔑一
@@ -39,27 +39,27 @@
 [岗位数量](http://elaine.pythonanywhere.com/effectscatter_symbol)
 [工作经验](http://elaine.pythonanywhere.com/pie_base)
 [最低学历](http://elaine.pythonanywhere.com/bar)
-<img src="https://github.com/ElaineToto/Python_Data/readme_images/nav.png">
+<img src="https://github.com/ElaineToto/Python_Data/blog/master/readme_images/nav.png">
 
 
 ##### 🔐二
 用户通过选择器点击想要了解的城市，可显示该城市的相关岗位数量
-<img src="https://github.com/ElaineToto/Python_Data/readme_images/option.png">
+<img src="https://github.com/ElaineToto/Python_Data/readme_images/blog/master/option.png">
 
 
 ##### 🔐三
 鼠标下拉可看文字结论分析
-<img src="https://github.com/ElaineToto/Python_Data/readme_images/text.png">
+<img src="https://github.com/ElaineToto/Python_Data/blog/master/readme_images/text.png">
 
 ## 📝数据交互\自定义函数模块描述
 
 代码
 [详细app.py👈](https://github.com/ElaineToto/Python_Data/blob/master/app.py)）
 
-<img src="https://github.com/ElaineToto/Python_Data/readme_images/code.png">
+<img src="https://github.com/ElaineToto/Python_Data/blog/master/readme_images/code.png">
 
 ### 🐂HTML页面交互及Jinja2
-<img src="https://github.com/ElaineToto/Python_Data/readme_images/jj.png">
+<img src="https://github.com/ElaineToto/Python_Data/blog/master/readme_images/jj.png">
 
 ### [🔗我PythonAnywhere](http://Elaine.pythonanywhere.com/)
 
