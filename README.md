@@ -3,7 +3,7 @@
 
 ---
 
-一个用python flask搭建的web，进行python相关职业分析的数据交互可视化，并部署在[PythonAnywhere👈](http://Elaine.pythonanywhere.com/)进行展示。
+一个用python flask搭建的web，进行数据交互可视化，主题为<strong>python岗位相关分析</strong>并部署在[PythonAnywhere👈](http://Elaine.pythonanywhere.com/)进行展示。
 
 同时此项目为中山大学南方学院17-18级网络与新媒体python课程期末作业，三人协作完成，搭档[camaxjj](https://github.com/camaxjj/python)&[Huhu-Estelle](https://github.com/Huhu-Estelle/)
 
@@ -19,7 +19,8 @@
 4. [最低学历-工作经验与平均月薪](http://elaine.pythonanywhere.com/bar)
 
 ### 👌Python档描述
-
+* 在flask环境下导入pandas、pyecharts实现数据图表交互展示。
+* 写出四个@route，分别呈现为<strong>各省python相关岗位平均月薪、各省python相关岗位数量、工作经验与最低要求学历的职位分布数量、最低学历-工作经验与平  均月薪</strong>的相关图表展示
 - 主运行文件为 `app.py ` 文件。
 
 - `static ` 为网页样式。
@@ -62,4 +63,4 @@
 
 ### [🔗搭档PythonAnywhere](http://xjiajian.pythonanywhere.com/)
 
-### [📦源码](https://github.com/ElaineToto/Python_Data)
+### [📦代码仓库](https://github.com/ElaineToto/Python_Data)
