@@ -10,7 +10,7 @@
 
 ---
 
-## 👍HTML档描述
+### 👍HTML档描述
 ##### 分为四个页面展示python岗位分析内容
 
 1. [各省python相关岗位平均月薪](http://elaine.pythonanywhere.com/)以地图方式呈现，得出结论Python这个关键词下，全国16946条样本的月薪平均值为14197元/月。
@@ -18,9 +18,11 @@
 3. [工作经验与最低要求学历的职位分布数量](http://elaine.pythonanywhere.com/pie_base)以柱状图和折线图方式呈现，得出结论上半部分的柱状图可以看出工作经验要求【不限】的数量最多，达6183个岗位，因此可以初步推断Python相关岗位，只要你技术过硬能够胜任工作，并没有工作经验方面的硬性要求。
 4. [最低学历-工作经验与平均月薪](http://elaine.pythonanywhere.com/bar)以折线图方式呈现，得出结论如图所示，我们可以看出无论是从同一学历不同经验还是相同经验不同学历条形图都是呈增长趋势的，因此可以判断出Python相关岗位的月薪是与学历经验直接相关的。以后想从事这个行业的同学，需要多多实操，好好学习，平均月薪的多少与你技术能力的不可替代性息息相关。
 <strong>人生苦短，我用PYTHON</strong>
+
 * (在templates文件下的base.html中以.top写出导航栏，以<a>标签链接其它页面实现选项跳转，并以css和style定义导航栏的样式)
 * 在.html页面以<link href="../static/hf.css" rel="stylesheet"/>链接到static中的hf.css样式.
 * 在body里以<aside style>写入一个文本方框及内容。
+* 以<select><option>实现地区选择
 ### 👌Python档描述
 
 - 主运行文件为 `app.py ` 文件。
@@ -41,8 +43,8 @@
 * 调用pyecharts模块作图传输到HTML页面。
 * 使用list字典循环。
 
-## 📗Web_App动作描述
-##### 🔑一
+### 📗Web_App动作描述
+##### 🔐一
 用户点击导航栏四个选项，跳转到想了解的页面
 [平均月薪](http://elaine.pythonanywhere.com/)
 [岗位数量](http://elaine.pythonanywhere.com/effectscatter_symbol)
@@ -60,7 +62,7 @@
 鼠标下拉可看文字结论分析
 ![结论](./readme_images/text.png)
 
-## 📝数据交互\自定义函数模块描述
+### 📝数据交互\自定义函数模块描述
 
 代码
 [详细app.py👈](https://github.com/ElaineToto/Python_Data/blob/master/app.py)）
@@ -69,8 +71,8 @@
 ### 🐂HTML页面交互及Jinja2
 ![交互](./readme_images/jj.png)
 
-### [🔗我PythonAnywhere](http://Elaine.pythonanywhere.com/)
+#### [🔗我PythonAnywhere](http://Elaine.pythonanywhere.com/)
 
-### [🔗搭档PythonAnywhere](http://xjiajian.pythonanywhere.com/)
+#### [🔗搭档PythonAnywhere](http://xjiajian.pythonanywhere.com/)
 
-### [📦代码仓库](https://github.com/ElaineToto/Python_Data)
+#### [📦代码仓库](https://github.com/ElaineToto/Python_Data)
