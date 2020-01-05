@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}
+    {% endblock %}</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
+<link href="../static/hf.css" rel="stylesheet"/>
+<style type="text/css">
+        .top{
+            /* 设置宽度高度背景颜色 */
+            height: 50px;
+            width:100%;
+            background:cornflowerblue;
+            position: fixed; /*固定在顶部*/
+            top: 0;/*离顶部的距离为0*/
+        }
+        .top ul{
+            /* 清除ul标签的默认样式 */
+            width: 120%;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+
+        }
+        .top li {
+            float:left; /* 使li内容横向浮动，即横向排列  */
+            margin-right:50px;  /* 两个li之间的距离*/
+        }
+
+        .top li a{
+           /* 设置链接内容显示的格式*/
+            display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+            color:white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none; /* 去除下划线 */
+        }
+        .top li a:hover{
+            /* 鼠标选中时背景变为黑色 */
+            background-color: #111;
+        }
+
+        </style>
+</head>
+<body>
+<div class="top">
+                    <ul>
+                    <li><a href="/">各省python相关岗位平均月薪</a></li>
+                    <li><a href="/effectscatter_symbol">各省python相关岗位数量</a></li>
+                    <li><a href="/pie_base">工作经验与最低要求学历的职位分布数量</a></li>
+                     <li><a href="/Bar/">最低学历-工作经验与平均月薪</a></li>
+                    <li>
+                        </ul>
+                    </li>
+                      </ul>
+            </div>
+<div style="height: 60px"></div>
+<div style="height:50px">{% block select %}
+
+{% endblock %}</div>
+
+<div align="center">
+{% block main %}
+
+{% endblock %}
+</div>
+</body>
+</html>

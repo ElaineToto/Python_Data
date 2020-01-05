@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block title%}各省python相关岗位数量{% endblock %}
+{% block select %}
+<head>
+    <select>
+        <option value="河北">河北</option>
+        <option value="河南">河南</option>
+        <option value="重庆">重庆</option>
+        <option value="陕西">陕西</option>
+        <option value="吉林">吉林</option>
+        <option value="湖南">湖南</option>
+        <option value="辽宁">辽宁</option>
+        <option value="福建">福建</option>
+        <option value="湖北">湖北</option>
+        <option value="浙江">浙江</option>
+        <option value="北京">北京</option>
+        <option value="上海">上海</option>
+        <option value="广州">广州</option>
+    </select>
+</head>
+{% endblock %}
+{% block main %}
+<h2>各省python相关岗位数量</h2>
+{{ the_sym|safe }}
+          <body>
+<aside style="
+      float: left;
+      background-color:lightcyan;
+      width:1000px;
+      height:250px;
+      border-radius: 20px;
+      margin-left: 150px;
+      margin-top: 60px;
+      text-align: left;
+      font-size: 99%;">
+    <p> 结论：北上广浙这四个省份占据了超过60%以上的职位数。</p >
+<p> 其中北京当之无愧的占据了四分之一的Python工作数量，不愧为帝都。</p >
+<p> 上海以3114条职位排名第二，可见上海虽然经济超越北京，在互联网环境和工作机遇方面还需努力！</p >
+<p> 广东有深圳作为中国的科技中心，同时还有省会广州发展速度快、岗位需求大，排名第三当之无愧。</p >
+<p> 浙江第四这个排名并不惊讶，杭州的阿里巴巴、百草味等等电商产业带动了整个浙江的互联网文化。遗憾的是在智联招聘网没有爬取到西部省份的数据。</p >
+
+</aside>
+</body>
+{% endblock %}
+

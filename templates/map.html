@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
+
+</head>
+<body>
+    <div id="b9c75c3ce22b4f05855ea0c471ee1e6a" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_b9c75c3ce22b4f05855ea0c471ee1e6a = echarts.init(
+            document.getElementById('b9c75c3ce22b4f05855ea0c471ee1e6a'), 'white', {renderer: 'canvas'});
+        var option_b9c75c3ce22b4f05855ea0c471ee1e6a = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "\u5e73\u5747\u6708\u85aa",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "china",
+            "data": [
+                {
+                    "name": "\u6cb3\u5317",
+                    "value": 7164.08
+                },
+                {
+                    "name": "\u8d35\u5dde",
+                    "value": 7677.03
+                },
+                {
+                    "name": "\u6cb3\u5357",
+                    "value": 8641.82
+                },
+                {
+                    "name": "\u9ed1\u9f99\u6c5f",
+                    "value": 8908.62
+                },
+                {
+                    "name": "\u91cd\u5e86",
+                    "value": 9206.71
+                },
+                {
+                    "name": "\u5c71\u897f",
+                    "value": 9425.43
+                },
+                {
+                    "name": "\u9655\u897f",
+                    "value": 9510.15
+                },
+                {
+                    "name": "\u5929\u6d25",
+                    "value": 9533.9
+                },
+                {
+                    "name": "\u5409\u6797",
+                    "value": 9567.95
+                },
+                {
+                    "name": "\u6c5f\u897f",
+                    "value": 9652.87
+                },
+                {
+                    "name": "\u5409\u6797",
+                    "value": 9665.12
+                },
+                {
+                    "name": "\u5c71\u4e1c",
+                    "value": 9804.91
+                },
+                {
+                    "name": "\u6e56\u5357",
+                    "value": 9955.12
+                },
+                {
+                    "name": "\u5b89\u5fbd",
+                    "value": 10445.66
+                },
+                {
+                    "name": "\u8fbd\u5b81",
+                    "value": 10516.51
+                },
+                {
+                    "name": "\u56db\u5ddd",
+                    "value": 10308.28
+                },
+                {
+                    "name": "\u798f\u5efa",
+                    "value": 10777.85
+                },
+                {
+                    "name": "\u6c5f\u82cf",
+                    "value": 10859.23
+                },
+                {
+                    "name": "\u6e56\u5317",
+                    "value": 10896.49
+                },
+                {
+                    "name": "\u5357\u4eac",
+                    "value": 12632.53
+                },
+                {
+                    "name": "\u6d59\u6c5f",
+                    "value": 14154.95
+                },
+                {
+                    "name": "\u5e7f\u4e1c",
+                    "value": 14583.24
+                },
+                {
+                    "name": "\u4e0a\u6d77",
+                    "value": 16395.9
+                },
+                {
+                    "name": "\u5317\u4eac",
+                    "value": 17096.07
+                }
+            ],
+            "roam": true,
+            "zoom": 1,
+            "showLegendSymbol": true,
+            "emphasis": {}
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u5e73\u5747\u6708\u85aa"
+            ],
+            "selected": {
+                "\u5e73\u5747\u6708\u85aa": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "\u5404\u7701python\u76f8\u5173\u5c97\u4f4d\u5e73\u5747\u6708\u85aa"
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 7164.08,
+        "max": 17096.07,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140
+    }
+};
+        chart_b9c75c3ce22b4f05855ea0c471ee1e6a.setOption(option_b9c75c3ce22b4f05855ea0c471ee1e6a);
+    </script>
+</body>
+</html>

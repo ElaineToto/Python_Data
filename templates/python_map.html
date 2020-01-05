@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block select %}
+
+  <div >
+<table border="1">
+{% for k,v in the_province.items() %}
+  <tr>
+    <th>地区</th>
+    <th>数量</th>
+  </tr>
+
+  <tr>
+    <td>{{k}}</td>
+    <td>{{v}}</td>
+  </tr>
+    {% endfor %}
+</table>
+    </div>
+
+
+{% endblock %}
+{% block main %}
+
+<h2>各省python相关岗位平均月薪</h2>
+    {{ the_map|safe }}
+        <body>
+<aside style="
+      float: left;
+      background-color:lightcyan;
+      width:1000px;
+      height:250px;
+      border-radius: 20px;
+      margin-left: 150px;
+      margin-top: 60px;
+      text-align: left;
+      font-size: 99%;">
+    <p> 结论： Python这个关键词下，全国16946条样本的月薪平均值为14197元/月。</p >
+<p> 可以看见，平均月薪排名前5的省份分别是：北京、上海、广东、浙江、南京。</p >
+<p> 这正对应到图一的城市—职位数分布图，全国24个省份中，职位数排名前5 的也是这5个省份！</p >
+<p> 看来北上广浙和南京不仅集中了全国大部分的职位数量、连平均工资也是领跑全国。</p >
+<p> 如果你觉得在大城市生活、买房压力太大的人，不如选择南京、武汉、苏州、大连、厦门这样相对较小的城市，python相关岗位的平均月薪是过万的,生活压力相对较小。</p >
+
+</aside>
+</body>
+
+{% endblock %}-->
