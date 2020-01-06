@@ -64,9 +64,27 @@
 
 ### 📝数据交互\自定义函数模块描述
 
-代码
-[详细app.py👈](https://github.com/ElaineToto/Python_Data/blob/master/app.py)）
-![代码](./readme_images/py.png)
+#### 数据循环
+![循环](./readme_images/py.png)
+
+#### 数据嵌套
+![嵌套](./readme_images/qt.png)
+
+#### 推导式
+![推导式](./readme_images/tds.png)
+
+#### 条件判断
+![条件判断](./readme_images/tj.png)
+
+#### 数据交互
+![数据交互](./readme_images/jh.png)
+
+#### 自定义函数模块
+![函数](./readme_images/zdy.png)
+
+
+[详细代码app.py👈](https://github.com/ElaineToto/Python_Data/blob/master/app.py)）
+
 
 ### 🐂HTML页面交互及Jinja2
 ![交互](./readme_images/jj.png)
