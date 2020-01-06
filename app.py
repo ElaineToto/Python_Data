@@ -57,7 +57,7 @@ def map() -> 'html':
                            )
 
 
-
+element = list(set(most['分类']))
 
 
 
@@ -85,6 +85,11 @@ def effectscattere_symbol() -> 'html':
 
         1
 
+        data_pie1 = data_pie.T.to_html()
+
+        pie1_list = [num for num in data_pie['分类']]
+
+        labels = [index for index in data_pie.index]
 
 
 @app.route('/pie_base')
@@ -121,8 +126,43 @@ def pie_base() -> 'html':
                                the_pie_base=pie_base,
                                )
 
+ the_element3 = request.form['the_element3_selected']
+    
+    print(the_element3)
+    
+    element3_available = element3
+    
+    if the_element3 =='广州':
+    
+    the_level = 广州
+    
+    elif the_element3 =='上海':
+    
+    the_level = 上海
+    
+    elif the_element3 =='北京':
+    
+    the_level = 北京
+    
+    else:
+       
+       the_level = 其它
 
+        
+        
+        
+         def python_most():
 
+    title1 = "最低学历"
+
+    data_pie =  pd.DataFrame(pressure2.loc['最低学历与工作经验的关系']['分类'].value_counts())
+
+    data_pie1 = data_pie.T.to_html()
+
+    pie1_list = [num for num in data_pie['分类']]
+
+    labels = [index for index in data_pie.index]
+    
 @app.route('/Bar/')
 def bar_base() -> Bar:
     df = pd.read_csv('data4.csv', encoding='utf8', index_col="学历")
@@ -154,7 +194,19 @@ def bar_base() -> Bar:
         return render_template('python_bar.html',
                                the_bar_base=bar_base,
                                )
+ return render_template('first.html',
 
+                        the_title1 = title1,
+                        
+                        the_select_element1 = element1_available,
+                        
+                        the_data_pie1 = data_pie1,
+                        
+                        the_pyecharts_all = plot_all,
+                        
+                        the_pyecharts_all1 = plot_all1,
+                        
+                        the_pyecharts_all3 = plot_all3,
 
 if __name__ == '__main__':
     app.run(debug=True)
