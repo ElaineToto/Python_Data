@@ -3,52 +3,91 @@
 
 ---
 
-一个用python flask搭建的web，进行数据交互可视化，主题为<strong>python岗位相关分析</strong>并部署在[PythonAnywhere👈](http://Elaine.pythonanywhere.com/)进行展示。
+一个用python flask搭建的web，进行数据交互可视化，主题为<strong>python岗位相关分析</strong>并部署在[PythonAnywhere👈点击跳转](http://Elaine.pythonanywhere.com/)进行展示。
 
-同时此项目为中山大学南方学院17-18级网络与新媒体python课程期末作业，三人协作完成，搭档[camaxjj](https://github.com/camaxjj/python)&[Huhu-Estelle](https://github.com/Huhu-Estelle/)
+同时此项目为中山大学南方学院17-18级网络与新媒体python课程期末作业，三人协作完成，搭档[👨camaxjj](https://github.com/camaxjj/python)  &  [👨Huhu-Estelle](https://github.com/Huhu-Estelle/)
 
 
 ---
 
-### 👍HTML档描述
-##### 分为四个页面展示python岗位分析内容
+### 🌍HTML档描述
 
-1. [各省python相关岗位平均月薪](http://elaine.pythonanywhere.com/)以地图方式呈现，得出结论Python这个关键词下，全国16946条样本的月薪平均值为14197元/月。
-2. [各省python相关岗位数量](http://elaine.pythonanywhere.com/effectscatter_symbol)以热力图方式呈现，得出结论结论：北上广浙这四个省份占据了超过60%以上的职位数。
-3. [工作经验与最低要求学历的职位分布数量](http://elaine.pythonanywhere.com/pie_base)以柱状图和折线图方式呈现，得出结论上半部分的柱状图可以看出工作经验要求【不限】的数量最多，达6183个岗位，因此可以初步推断Python相关岗位，只要你技术过硬能够胜任工作，并没有工作经验方面的硬性要求。
-4. [最低学历-工作经验与平均月薪](http://elaine.pythonanywhere.com/bar)以折线图方式呈现，得出结论如图所示，我们可以看出无论是从同一学历不同经验还是相同经验不同学历条形图都是呈增长趋势的，因此可以判断出Python相关岗位的月薪是与学历经验直接相关的。以后想从事这个行业的同学，需要多多实操，好好学习，平均月薪的多少与你技术能力的不可替代性息息相关。
-<strong>人生苦短，我用PYTHON</strong>
+#### 分为四个页面展示python岗位分析内容
 
-* (在templates文件下的base.html中以.top写出导航栏，以<a>标签链接其它页面实现选项跳转，并以css和style定义导航栏的样式)
-* 在.html页面以<link href="../static/hf.css" rel="stylesheet"/>链接到static中的hf.css样式.
-* 在body里以<aside style>写入一个文本方框及内容。
-* 以select option <select><option>实现地区选择
-### 👌Python档描述
+##### 1. 各省python相关岗位平均月薪
+
+[各省python相关岗位平均月薪](http://elaine.pythonanywhere.com/)以地图方式呈现，得出结论Python这个关键词下，全国16946条样本的月薪平均值为14197元/月。
+   
+
+#### 2. 各省python相关岗位数量
+
+[各省python相关岗位数量](http://elaine.pythonanywhere.com/effectscatter_symbol)以热力图方式呈现，得出结论结论：北上广浙这四个省份占据了超过60%以上的职位数。
+   
+
+##### 3.工作经验与最低要求学历的职位分布数量
+
+[工作经验与最低要求学历的职位分布数量](http://elaine.pythonanywhere.com/pie_base)以柱状图和折线图方式呈现，得出结论上半部分的柱状图可以看出工作经验要求【不限】的数量最多，达6183个岗位，因此可以初步推断Python相关岗位，只要你技术过硬能够胜任工作，并没有工作经验方面的硬性要求。
+
+
+##### 3. 最低学历-工作经验与平均月薪
+
+[最低学历-工作经验与平均月薪](http://elaine.pythonanywhere.com/bar)以折线图方式呈现，得出结论如图所示，我们可以看出无论是从同一学历不同经验还是相同经验不同学历条形图都是呈增长趋势的，因此可以判断出Python相关岗位的月薪是与学历经验直接相关的。以后想从事这个行业的同学，需要多多实操，好好学习，平均月薪的多少与你技术能力的不可替代性息息相关。
+
+**人生苦短，我用PYTHON**
+
+
+### ✍️后端与HTML档
+
+
+1. (在templates文件下的`base.html`中以.top写出导航栏，以`<a>`标签链接其它页面实现选项跳转，并以css和style定义导航栏的样式)
+
+2. 在.html页面以`<link href="../static/hf.css" rel="stylesheet"/>`链接到static中的hf.css样式.
+
+3. 在body里以`<aside style>`写入一个文本方框及内容。
+
+4.以 `<select>`  ` <option>` 选项表单实现地区选择
+
+
+### 📃Python档描述
 
 - 主运行文件为 `app.py ` 文件。
 
-- `static ` 为网页样式。
+- `static ` 文件为网页样式。
  
 -  `templates ` 里的`map.html`系列文件为生成可视化图表的离线文件，作为引用文件。
  
--  `data1.csv ` 等csv文件为引用的数据文档。
-
--  `all.xls ` 为总的数据源。
+-  `data1.csv ` 等csv文件为引用的数据文档。`csv`档 为数据源。
 ![文件内容](./readme_images/py.png)
 
-* 在flask环境下导入pandas、pyecharts实现数据图表交互展示。
-* 写出四个@route，分别呈现为<strong>各省python相关岗位平均月薪、各省python相关岗位数量、工作经验与最低要求学历的职位分布数量、最低学历-工作经验与平  均月薪</strong>的相关图表展示。
-* df = pd.read_csv('xxx.csv',encoding = 'utf8', index_col="xxx")英文采用单字节编码，部分中文采用双字节编码。
-* 利用.renter/with open导入和打开文件。
-* 调用pyecharts模块作图传输到HTML页面。
-* 使用list字典循环。
+* 在flask环境下导入`pandas` 、`pyecharts`实现数据图表交互展示。
+
+
+* 写出四个@route，分别呈现为**各省python相关岗位平均月薪、各省python相关岗位数量、工作经验与最低要求学历的职位分布数量、最低学历-工作经验与平  均月薪**的相关图表展示。
+
+
+* `df = pd.read_csv('xxx.csv',encoding = 'utf8', index_col="xxx")`英文采用单字节编码，部分中文采用双字节编码。
+
+
+* 利用`.renter/with open`导入和打开文件。
+
+* 调用`pyecharts`模块作图传输到HTML页面。
+
+* 使用`list`字典循环。
+
+* 使用**列表推导式**进行取值。
+
 
 ### 📗Web_App动作描述
+
 ##### 🔐一
+
 用户点击导航栏四个选项，跳转到想了解的页面
 [平均月薪](http://elaine.pythonanywhere.com/)
+
 [岗位数量](http://elaine.pythonanywhere.com/effectscatter_symbol)
+
 [工作经验](http://elaine.pythonanywhere.com/pie_base)
+
 [最低学历](http://elaine.pythonanywhere.com/bar)
 
 ![导航](./readme_images/nav.png)
