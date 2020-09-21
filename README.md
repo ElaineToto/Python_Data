@@ -111,6 +111,7 @@
 
 #### 推导式
 ![推导式](./readme_images/tds.png)
+![推导式2](./readme_images/推导式.png)
 
 #### 条件判断
 ![条件判断](./readme_images/tj.png)
